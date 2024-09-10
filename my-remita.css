@@ -535,7 +535,7 @@ section{
      margin-top: 20%;
      height: 400px;
     width: 100%;
-    background-color: #F16521;
+    background-color: #c44a12;
 }
 .exclusive{
     text-align: center;
@@ -642,93 +642,50 @@ section{
     flex-direction: row;
     gap: 10px;
 }
-.box1, .box2, .box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12{
-    width: 100px;
-    height: 130px;
-    background-color: #f9f9f9;
-    box-shadow: -20px -20px 20px white ;
+.bills{
+     width: 18%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    font-size: 13   px;
+    font-weight: 400;
+    color: rgb(49, 47, 47);
     border-radius: 10px;
+    box-shadow: -10px -10px 10px white;
+    transition: transform 0.2s ease-in-out;
 }
-.box1, .box2, .box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12:hover{
-transform: translatex( -20px);
-transition: transform all ease 0.5s;
-
+.bills:hover{
+    transform: scale(1.1);
 }
-.box1{
-position: absolute;
-top: 30%;
-left: 55%;
-
+.airtime{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(235, 235, 235);
 }
-.box2{
-position: absolute;
-top: 30%;
-left: 66%;
+.bill-items{
+    display: flex;
+    gap: 40px;
 }
-.box3{
-position: absolute;
-top: 30%;
-left: 77.5%;
+.bill-sales{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -340px;
+    margin-left: 200px;
 }
-.box4{
-position: absolute;
-top: 30%;
-left: 89%;
-}
-.box5{
-position: absolute;
-top: 55%;
-left: 55%;
-}
-.box6{
-position: absolute;
-top: 55%;
-left: 66%;
-}
-.box7{
-position: absolute;
-top: 55%;
-left: 77.5%;
-}
-.box8{
-position: absolute;
-top: 55%;
-left: 89%;
-}
-.box9{
-position: absolute;
-top: 80%;
-left: 55%;
-}
-.box10{
-position: absolute;
-top: 80%;
-left: 66%;
-}
-.box11{
-position: absolute;
-top: 80%;
-left: 77.5%;
-}
-.box12{
-position: absolute;
-top: 80%;
-left: 89%;
-}
-.bg1 img{
-margin-top: 20px;
-margin-left: 17px;
-}
-.con1, .con2, .con3, .con4, .con5, .con6, .con7, .con8, .con9, .con10, .con11, .con12{
-border-radius: 50%;
-background-color: #f5f5f5;
-width: 60px;
-height: 60px;
-margin-top: 20px;
-margin-left: 20px;
-justify-content: center;
-align-items: center;
-
+.debit{
+    font-size: 12px;
+    color: rgb(53, 52, 52);
+    font-weight: bolder;
 }
 .app{
     display: flex;
